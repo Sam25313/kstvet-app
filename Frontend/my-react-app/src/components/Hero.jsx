@@ -1,24 +1,27 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
-import Background from "../assets/Background.jpg";
 import { Link } from "react-router-dom";
 import ImageSlider from "./ImageSlider";
 import Modal from "react-modal";
 
+import Background from "../assets/Background.JPG";
 import Background1 from "../assets/Background1.jpg";
 import Background2 from "../assets/Background2.webp";
 import Background4 from "../assets/Background4.jpg";
 import Background5 from "../assets/Background5.png";
 import Background6 from "../assets/Background6.jpg";
+import Background9 from "../assets/Background9.jpg";
 
 Modal.setAppElement("#root");
 
 const images = [
+  Background,
   Background1,
   Background2,
   Background4,
   Background5,
   Background6,
+  Background9
 ];
 
 const Hero = () => {
