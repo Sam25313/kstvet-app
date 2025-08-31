@@ -1,18 +1,18 @@
 import React from 'react'
 import { useState } from 'react';
-import Worship2 from '../assets/Worship2.JPG'
 import Media from '../assets/Media.jpg'
 import BibleStudy from '../assets/BibleStudy.webp'
 import Praying from '../assets/Praying.jpg'
 import Outreach from '../assets/Outreach.jpg'
 import Ushering from '../assets/Ushering.jpg'
+import Background9 from "../assets/Background9.jpg"
 
 const Ministries = () => {
     const [stopScroll, setStopScroll] = React.useState(false);
     const cardData = [
            {
             title: "Worship Ministry 🎤",
-            image: Worship2,
+            image: Background9,
         },
         {
             title: "Bible Study 📖 ",
