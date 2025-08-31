@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
-import Worship2 from '../assets/Worship2.jpg'
+import Worship2 from '../assets/Worship2.JPG'
 import Media from '../assets/Media.jpg'
 import BibleStudy from '../assets/BibleStudy.webp'
 import Praying from '../assets/Praying.jpg'
