@@ -5,7 +5,7 @@ import BibleStudy from '../assets/BibleStudy.webp'
 import Praying from '../assets/Praying.jpg'
 import Outreach from '../assets/Outreach.jpg'
 import Ushering from '../assets/Ushering.jpg'
-import Background9 from "../assets/Background9.jpg"
+import Background9 from '../assets/Background9.jpg'
 
 const Ministries = () => {
     const [stopScroll, setStopScroll] = React.useState(false);

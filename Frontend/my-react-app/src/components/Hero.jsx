@@ -5,7 +5,7 @@ import ImageSlider from "./ImageSlider";
 import Modal from "react-modal";
 
 import Background from "../assets/Background.JPG";
-import Background1 from "../assets/Background1.JPG";
+import Background1 from "../assets/Background1.JPG"
 import Background2 from "../assets/Background2.webp";
 import Background4 from "../assets/Background4.jpg";
 import Background5 from "../assets/Background5.png";
