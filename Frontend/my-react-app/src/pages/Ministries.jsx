@@ -5,14 +5,14 @@ import BibleStudy from '../assets/BibleStudy.webp'
 import Praying from '../assets/Praying.jpg'
 import Outreach from '../assets/Outreach.jpg'
 import Ushering from '../assets/Ushering.jpg'
-import Background9 from '../assets/Background9.jpg'
+import Worship2 from '../assets/Worship2.JPG'
 
 const Ministries = () => {
     const [stopScroll, setStopScroll] = React.useState(false);
     const cardData = [
            {
             title: "Worship Ministry 🎤",
-            image: Background9,
+            image: Worship2,
         },
         {
             title: "Bible Study 📖 ",
