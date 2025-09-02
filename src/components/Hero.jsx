@@ -15,7 +15,6 @@ Modal.setAppElement("#root");
 
 const images = [
   Background,
-  Background1,
   Background2,
   Background4,
   Background5,
