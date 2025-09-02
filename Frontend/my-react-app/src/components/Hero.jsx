@@ -13,7 +13,6 @@ import Background6 from "../assets/Background6.jpg";
 Modal.setAppElement("#root");
 
 const images = [
-  Background1,
   Background2,
   Background4,
   Background5,
