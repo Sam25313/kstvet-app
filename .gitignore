@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f1b8f640d4305c4e8ae48ad8573630996f2c0c50
 # Logs
 logs
 *.log
@@ -22,3 +26,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+<<<<<<< HEAD
+=======
+=======
+Backend/node_modules/
+Frontend/node_modules/
+
+.env
+>>>>>>> 9fb93d5215840d89c44e9bddc9d740b6785734f6
+>>>>>>> f1b8f640d4305c4e8ae48ad8573630996f2c0c50
