@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import ImageSlider from "./ImageSlider";
 import Modal from "react-modal";
 
-import Background1 from "../assets/Background1.jpg";
 import Background2 from "../assets/Background2.webp";
 import Background4 from "../assets/Background4.jpg";
 import Background5 from "../assets/Background5.png";
