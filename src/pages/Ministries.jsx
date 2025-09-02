@@ -1,26 +1,17 @@
 import React from 'react'
 import { useState } from 'react';
-<<<<<<< HEAD
-=======
-import Worship2 from '../assets/Worship2.jpg'
->>>>>>> f1b8f640d4305c4e8ae48ad8573630996f2c0c50
 import Media from '../assets/Media.jpg'
 import BibleStudy from '../assets/BibleStudy.webp'
 import Praying from '../assets/Praying.jpg'
 import Outreach from '../assets/Outreach.jpg'
 import Ushering from '../assets/Ushering.jpg'
-<<<<<<< HEAD
-import Worship2 from '../assets/Worship2.JPG'
-
-=======
->>>>>>> f1b8f640d4305c4e8ae48ad8573630996f2c0c50
-
+import Background9 from '../assets/Background9.jpg'
 const Ministries = () => {
     const [stopScroll, setStopScroll] = React.useState(false);
     const cardData = [
            {
             title: "Worship Ministry 🎤",
-            image: Worship2,
+            image: Background9,
         },
         {
             title: "Bible Study 📖 ",
