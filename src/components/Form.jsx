@@ -23,7 +23,7 @@ const Form = () => {
     setIsSubmitting(true);
 
     try {
-      await axios.post("http://localhost:5000/api/registration", data);
+      await axios.post("https://kstvet-cu-app.onrender.com/api/registration", data);
       toast.success("Registration Successful! Welcome aboard.", {
         duration: 5000,
       });

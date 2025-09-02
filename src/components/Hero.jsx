@@ -31,7 +31,7 @@ const Hero = () => {
     const fetchPublishedEvent = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:5000/api/events/published"
+          "https://kstvet-cu-app.onrender.com/api/events/published"
         );
 
         // If an event is found, set it in state and open the modal

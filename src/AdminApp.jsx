@@ -37,7 +37,7 @@ const httpClient = (url, options = {}) => {
   return fetchUtils.fetchJson(url, options);
 };
 const myDataProvider = simpleRestProvider(
-  "http://localhost:5000/api",
+  "https://kstvet-cu-app.onrender.com/api",
   httpClient
 );
 
@@ -85,7 +85,7 @@ const mappedDataProvider = {
 
       publish: (resource, params) => {
         const { id } = params;
-        const url = `http://localhost:5000/api/${resource}/${id}/publish`;
+        const url = `https://kstvet-cu-app.onrender.com/api/${resource}/${id}/publish`;
         
         return httpClient(url, {
             method: 'POST',
@@ -94,7 +94,7 @@ const mappedDataProvider = {
     
 
   sendBulkSms: (resource, params) => {
-    const url = `http://localhost:5000/api/${resource}/send-sms`;
+    const url = `https://kstvet-cu-app.onrender.com/api/${resource}/send-sms`;
 
     const body = {
       userIds: params.data.userIds,
