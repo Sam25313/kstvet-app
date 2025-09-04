@@ -19,7 +19,7 @@ const Sermons = () => {
     
     const fetchSermons = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/api/sermons");
+        const response = await axios.get(`${import.meta.env.VITE_API_URL}/api/sermons`);
         setSermons(response.data);
       } catch (error) {
         console.error("Error fetching sermons:", error);
