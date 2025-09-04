@@ -85,8 +85,8 @@ const mappedDataProvider = {
 
       publish: (resource, params) => {
         const { id } = params;
-        const url = `https://kstvet-cu-app.onrender.com/api/${resource}/${id}/publish`;
-        
+       const url = `${import.meta.env.VITE_API_URL}/api/${resource}/${id}/publish`;
+
         return httpClient(url, {
             method: 'POST',
         }).then(({ json }) => ({ data: json }));
@@ -94,7 +94,7 @@ const mappedDataProvider = {
     
 
   sendBulkSms: (resource, params) => {
-    const url = `https://kstvet-cu-app.onrender.com/api/${resource}/send-sms`;
+   const url = `${import.meta.env.VITE_API_URL}/api/${resource}/send-sms`;
 
     const body = {
       userIds: params.data.userIds,

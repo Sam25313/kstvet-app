@@ -28,9 +28,10 @@ const Footer = () => {
     }
     setStatus("loading");
     try {
-      const response = await axios.post("http://localhost:5000/api/subscribe", {
-        email,
-      });
+    const response = await axios.post(
+  `${import.meta.env.VITE_API_URL}/api/subscribe`,
+  { email }
+);
 
       if (response.status === 200) {
         setStatus("success");

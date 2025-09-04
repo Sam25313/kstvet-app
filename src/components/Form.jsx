@@ -23,7 +23,10 @@ const Form = () => {
     setIsSubmitting(true);
 
     try {
-      await axios.post("https://kstvet-cu-app.onrender.com/api/registration", data);
+     await axios.post(
+  `${import.meta.env.VITE_API_URL}/api/registration`,
+  data
+);
       toast.success("Registration Successful! Welcome aboard.", {
         duration: 5000,
       });

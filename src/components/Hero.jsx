@@ -30,9 +30,10 @@ const Hero = () => {
     // Fetch the single published event from your backend
     const fetchPublishedEvent = async () => {
       try {
-        const response = await axios.get(
-          "https://kstvet-cu-app.onrender.com/api/events/published"
-        );
+      const response = await axios.get(
+  `${import.meta.env.VITE_API_URL}/api/events/published`
+);
+
 
         // If an event is found, set it in state and open the modal
         if (response.data) {
