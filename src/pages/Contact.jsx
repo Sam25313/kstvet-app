@@ -24,7 +24,7 @@ const Contact = () => {
     const onSubmit = async(data)=>{
         setIsSubmitting(true);
         try {
-            await axios.post('http://localhost:5000/api/contact', data);
+            await axios.post(`${import.meta.env.VITE_API_URL}/api/contact`, data);
             toast.success('Thank You For Contacting us',{
                 duration:5000
             });

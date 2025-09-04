@@ -37,7 +37,7 @@ const httpClient = (url, options = {}) => {
   return fetchUtils.fetchJson(url, options);
 };
 const myDataProvider = simpleRestProvider(
-  "https://kstvet-cu-app.onrender.com/api",
+  `${import.meta.env.VITE_API_URL}/api`,
   httpClient
 );
 

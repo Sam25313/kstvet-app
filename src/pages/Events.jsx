@@ -8,7 +8,7 @@ const Events = () => {
     // Fetch all events from your backend API
     const fetchEvents = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/api/events");
+        const response = await axios.get(`${import.meta.env.VITE_API_URL}/api/events`);
         setEvents(response.data);
       } catch (error) {
         console.error("Error fetching events:", error);
@@ -16,7 +16,7 @@ const Events = () => {
     };
 
     fetchEvents();
-    const socket = io("http://localhost:5000");
+    const socket = io(`${import.meta.env.VITE_API_URL}`);
     socket.on("events_updated", (updatedEventList) => {
       // When an update is received, update the state
       setEvents(updatedEventList);
